@@ -1,0 +1,303 @@
+<html>
+<head>
+    <title>
+        PH Designs
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Poiret One', cursive;
+            margin: 0px;
+            padding: 0px;
+            background: #2f3640;
+            color: white;
+        }
+
+        .chrome {
+            font-family: 'Anton', sans-serif;
+            background: none;
+            border: 2px solid #fbc531;
+            padding: 10px 20px 10px 20px;
+            font-size: 28px;
+            outline: 0;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: inset 0 0 0 0 #31302B;
+            -webkit-transition: all ease 0.8s;
+            -moz-transition: all ease 0.8s;
+            transition: all ease 0.8s;
+        }
+
+        .chrome:before {
+            content: '';
+            background: rgba(0, 0, 0, 0.8);
+            position: absolute;
+            width: 0%;
+            top: 0;
+            left: 0;
+            height: 100%;
+            transition: 0.3s linear;
+            z-index: -1;
+            transition: 0.70s;
+            border: 2px solid black;
+        }
+
+        .chrome:hover:before {
+            width: 100%;
+            transition: 0.70s;
+            -webkit-transition: 0.70s;
+            -moz-transition: 0.70s;
+            -ms-transition: 0.70s;
+            -o-transition: 0.70s;
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            border: 2px solid black;
+        }
+        .par1:hover{
+            transition: 0.70s;
+            -webkit-transition: 0.70s;
+            -moz-transition: 0.70s;
+            -ms-transition: 0.70s;
+            -o-transition: 0.70s;
+            -webkit-transform: rotate(-5deg);
+            -moz-transform: rotate(-5deg);
+            -o-transform: rotate(-5deg);
+            -ms-transform: rotate(-5deg);
+        }
+
+        .closezoom {
+            animation: animatezoom 0.6s
+        }
+
+        @keyframes animatezoom {
+            from {
+                transform: scale(0)
+            }
+            to {
+                transform: scale(1)
+            }
+        }
+            .crazy {
+            font-family: 'Anton', sans-serif;
+            background: none;
+            border: 2px solid #fbc531;
+            padding: 10px 20px 10px 20px;
+            font-size: 28px;
+            outline: 0;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: inset 0 0 0 0 #31302B;
+            -webkit-transition: all ease 0.8s;
+            -moz-transition: all ease 0.8s;
+            transition: all ease 0.8s;
+        }
+        .crazy:hover{
+            transition: 0.70s;
+            -webkit-transition: 0.70s;
+            -moz-transition: 0.70s;
+            -ms-transition: 0.70s;
+            -o-transition: 0.70s;
+            -webkit-transform: rotate(5deg);
+            -moz-transform: rotate(5deg);
+            -o-transform: rotate(5deg);
+            -ms-transform: rotate(5deg);
+        }
+       .crazy:before {
+            content: '';
+            background: rgba(0, 0, 0, 0.8);
+            position: absolute;
+            width: 0%;
+            top: 0;
+            right: 0;
+            height: 100%;
+            transition: 0.3s linear;
+            z-index: -1;
+            transition: 0.70s;
+        }
+
+        .crazy:hover:before {
+            width: 100%;
+            transition: 0.70s;
+            -webkit-transition: 0.70s;
+            -moz-transition: 0.70s;
+            -ms-transition: 0.70s;
+            -o-transition: 0.70s;
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+        .phoenix{
+            font-family: 'Anton', sans-serif;
+            background: none;
+            border: 2px solid #fbc531;
+            padding: 10px 20px 10px 20px;
+            font-size: 28px;
+            outline: 0;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: inset 0 0 0 32 #31302B;
+            -webkit-transition: all ease 0.8s;
+            -moz-transition: all ease 0.8s;
+            transition: all ease 0.8s;
+        }
+        .phoenix:hover {
+            width: 100%;
+            transition: 0.70s;
+            -webkit-transition: 0.70s;
+            -moz-transition: 0.70s;
+            -ms-transition: 0.70s;
+            -o-transition: 0.70s;
+            -webkit-transform: rotate(-18deg);
+            -moz-transform: rotate(-18deg);
+            -o-transform: rotate(-18deg);
+            -ms-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+        }
+               .phoenix:before {
+            content: '';
+            background: rgba(0, 0, 0, 0.8);
+            position: absolute;
+            width: 0%;
+            top: 0%;
+            right: 0;
+            height: 100%;
+            transition: 0.3s linear;
+            z-index: -1;
+            transition: 0.70s;
+        }
+
+        .phoenix:hover:before {
+            width: 100%;
+            transition: 0.70s;
+            -webkit-transition: 0.70s;
+            -moz-transition: 0.70s;
+            -ms-transition: 0.70s;
+            -o-transition: 0.70s;
+            -webkit-transform: rotate(-18deg);
+            -moz-transform: rotate(-18deg);
+            -o-transform: rotate(-18deg);
+            -ms-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+        }
+        .par3
+        {
+            transition: 0.70s;
+            -webkit-transform: rotate(-18deg);
+            -moz-transform: rotate(-18deg);
+            -o-transform: rotate(-18deg);
+            -ms-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+        }
+            .yang{
+            font-family: 'Anton', sans-serif;
+            background: none;
+            border: 2px solid #fbc531;
+            padding: 10px 20px 10px 20px;
+            font-size: 28px;
+            outline: 0;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: inset 0 100 0 0 #31302B;
+            -webkit-transition: all ease 0.8s;
+            -moz-transition: all ease 0.8s;
+            transition: all ease 0.8s;
+        }
+        .yang:hover {
+            width: 105%;
+            transition: 0.70s;
+            -webkit-transition: 0.70s;
+            -moz-transition: 0.70s;
+            -ms-transition: 0.70s;
+            -o-transition: 0.70s;
+            -webkit-transform: rotate(18deg);
+            -moz-transform: rotate(18deg);
+            -o-transform: rotate(18deg);
+            -ms-transform: rotate(18deg);
+            transform: rotate(18deg);
+        }
+               .yang:before {
+            content: '';
+            background: rgba(0, 0, 0, 0.8);
+            position: absolute;
+            width: 0;
+            top: 100%;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            transition: 0.3s linear;
+            z-index: -1;
+            transition: 0.70s;
+                   margin-top: -60px;
+        }
+
+        .yang:hover:before {
+            width: 100%;
+            transition: 0.70s;
+            -webkit-transition: 0.70s;
+            -moz-transition: 0.70s;
+            -ms-transition: 0.70s;
+            -o-transition: 0.70s;
+            -webkit-transform: rotate(-18deg);
+            -moz-transform: rotate(-18deg);
+            -o-transform: rotate(-18deg);
+            -ms-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+        }
+        .par4:hover
+        {
+            transition: 0.70s;
+            -webkit-transform: rotate(28deg);
+            -moz-transform: rotate(28deg);
+            -o-transform: rotate(28deg);
+            -ms-transform: rotate(28deg);
+            transform: rotate(28deg);
+        }
+    </style>
+    <script>
+    </script>
+</head>
+
+<body>
+    <center>
+    <div class="container">
+        <div class="header">
+            <h1 align="center">Ph BUTTONS</h1>
+            <h6 align="center">by Amit Singh</h6>
+        </div><br>
+        <div class="par1 col-sm-3">
+            <button type="button" class="chrome text animated bounce"><div class="inner animated tada">Chrome</div></button>
+        </div><br><br>
+        <div class="par2 col-sm-3">
+            <button type="button" class="crazy text animated closezoom"><div class="inner1 animated wobble"><span class="crp">Crazy</span></div></button>
+        </div><br><br>
+        <div class="par3 col-sm-3">
+            <button type="button" class="phoenix text animated flip"><div class="inner2 animated flip"><span class="crp">Phoenix</span></div></button>
+        </div><br><br>
+        <div class="par4 col-sm-3">
+            <button type="button" class="yang text animated pulse"><div class="inner3 animated jello"><span class="crp">Yang</span></div></button>
+        </div><br>
+        Crazy Fancy Buttons By Amit Singh Sansoya<br>
+        Crazy.css<br>
+        <small><small>Crazy FrameWork Development</small></small>
+    </div>
+    </center>
+</body>
+
+</html>
